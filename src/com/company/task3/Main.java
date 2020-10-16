@@ -2,7 +2,16 @@ package com.company.task3;
 
 public class Main {
     public static void main(String[] args) {
-        Student student = new Aspirant();
+        Student student = new Aspirant("1", "2", "3" , 4.0);
+
+        Student[] students = new Student[]{
+          new Student("1", "2", "3" , 5.0),
+          student
+        };
+
+        for (Student student1 : students) {
+            System.out.println(student1.getScholarship());
+        }
     }
 }
 
