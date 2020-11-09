@@ -1,4 +1,4 @@
-package com.company.task2;
+package com.company.lab2.task2;
 
 public class Animal {
     private String food;

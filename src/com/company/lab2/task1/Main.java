@@ -1,4 +1,4 @@
-package com.company.task1;
+package com.company.lab2.task1;
 
 public class Main {
 
